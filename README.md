@@ -1,2 +1,2 @@
 **UML diagrams of patterns**
-<img src="/strategy/strategy-dp-uml">
+![](./strategy/strategy-dp-uml.png)
