@@ -1,6 +1,6 @@
-package observer.mine.main;
+package observer.java;
 
-import observer.mine.util.Observable;
+import java.util.Observable;
 
 
 public class CricketDataUpdater extends Observable {

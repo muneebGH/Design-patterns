@@ -1,8 +1,8 @@
-package observer.mine.main.ObserverClients;
+package observer.java.observer_clients;
 
-import observer.mine.main.CricketDataUpdater;
-import observer.mine.utils.Observable;
-import observer.mine.utils.Observer;
+import observer.java.CricketDataUpdater;
+import java.util.Observable;
+import java.util.Observer;
 
 public class TVClient implements Observer {
     @Override

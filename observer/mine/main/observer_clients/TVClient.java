@@ -1,15 +1,14 @@
-package observer.mine.main.ObserverClients;
+package observer.mine.main.observer_clients;
 
 import observer.mine.main.CricketDataUpdater;
-import observer.mine.utils.Observable;
-import observer.mine.utils.Observer;
+import observer.mine.util.Observable;
+import observer.mine.util.Observer;
 
-public class ThirdPartyClient implements Observer {
+public class TVClient implements Observer {
     @Override
     public void update(Observable o, Object arg) {
-
-        System.out.println("Hi i am third Party client and i got notification that data is updated");
-        System.out.println("printing data on my device screen");
+        System.out.println("Hi i am TV client and i got notification that data is updated");
+        System.out.println("printing data on my screen for viewers");
 
         CricketDataUpdater.Data data=(CricketDataUpdater.Data)arg;
         System.out.println("Score :"+data.getScore());
@@ -17,7 +16,8 @@ public class ThirdPartyClient implements Observer {
         System.out.println("Overs :"+data.getOvers());
     }
 
-    public ThirdPartyClient(Observable observable) {
+    public TVClient(Observable observable) {
         observable.addObserver(this);
     }
 }
+

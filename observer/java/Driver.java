@@ -1,8 +1,8 @@
-package observer.mine.main;
+package observer.java;
 
-import observer.mine.main.observer_clients.MobileClient;
-import observer.mine.main.observer_clients.TVClient;
-import observer.mine.main.observer_clients.ThirdPartyClient;
+import observer.java.observer_clients.MobileClient;
+import observer.java.observer_clients.TVClient;
+import observer.java.observer_clients.ThirdPartyClient;
 
 public class Driver {
 
@@ -36,7 +36,7 @@ public class Driver {
                     cricketDataUpdater.incrementAll(incrementalStep);
                 }
 
-
+                
             }
 
             public MyThread(int incrementalStep) {

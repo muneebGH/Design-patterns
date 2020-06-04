@@ -1,4 +1,4 @@
-package observer.mine.utils;
+package observer.mine.util;
 
 
 import java.util.HashSet;
