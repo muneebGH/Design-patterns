@@ -1,4 +1,4 @@
-package observer.mine;
+package observer.mine.utils;
 
 public interface Observer {
     void update(Observable o,Object arg);
